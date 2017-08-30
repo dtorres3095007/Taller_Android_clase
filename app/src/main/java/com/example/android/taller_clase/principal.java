@@ -91,9 +91,9 @@ public class principal extends AppCompatActivity {
                 }
             }
            int num=Integer.parseInt(numero_zapatos.getText().toString());
-
-             total=num*valor+total;
-            respuesta.setText(total + "");
+            total=num*valor+total;
+             double total2=num*valor;
+            respuesta.setText(total2 + "");
 
         }
     }
