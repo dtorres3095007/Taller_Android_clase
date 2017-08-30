@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Taller_clase</string>
+    <string name="zapatos">Zapatos</string>
+    <string name="genero">Genero</string>
+    <string name="tipo">Tipo</string>
+    <string name="marca">Marca</string>
+    <string name="agregar">Agregar</string>
+    <string name="numero">Numero Zapatos</string>
+    <string name="Total_Pagar">Total Pagar</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clasico</string>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+    <string-array name="genero_array">
+        <item>@string/hombre</item>
+        <item>@string/mujer</item>
+    </string-array>
+    <string-array name="tipo_array">
+        <item>@string/zapatilla</item>
+        <item>@string/clasico</item>
+    </string-array>
+    <string-array name="marca_array">
+        <item>@string/nike</item>
+        <item>@string/adidas</item>
+        <item>@string/puma</item>
+    </string-array>
+    <string name="mensaje_error_uno">Ingreso Numero Zapatos</string>
+    <string name="terminar">Terminar</string>
+</resources>

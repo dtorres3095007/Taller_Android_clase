@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller_clase</string>
+    <string name="Total_Pagar">Pay total</string>
+    <string name="agregar">Add</string>
+    <string name="genero">Gender</string>
+    <string name="marca">Brand</string>
+    <string name="numero">Number Shoes</string>
+    <string name="tipo">type</string>
+    <string name="zapatos">Shoes</string>
+    <string name="clasico">classic</string>
+    <string name="hombre">man</string>
+    <string name="mujer">woman</string>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+    <string name="zapatilla">Slipper</string>
+    <string name="mensaje_error_uno">Add Number Shoes</string>
+    <string name="terminar">End up</string>
+</resources>
