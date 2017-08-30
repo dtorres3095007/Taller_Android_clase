@@ -104,6 +104,7 @@ public class principal extends AppCompatActivity {
 
         numero_zapatos.requestFocus();
         Toast.makeText(this,"Compra Finalizada Total A pagar: "+total,Toast.LENGTH_SHORT).show();
+        total=0;
     }
 
 }
