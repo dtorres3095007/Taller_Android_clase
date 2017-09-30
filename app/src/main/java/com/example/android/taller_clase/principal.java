@@ -48,49 +48,13 @@ public class principal extends AppCompatActivity {
         int opcion_marca = marca_spiner.getSelectedItemPosition();
         int opcion_tipo = tipo_spiner.getSelectedItemPosition();
         double valor = 0;
-        if (numero_zapatos.getText().toString().isEmpty()) {
+        if (Metodos.ValidarCampos(numero_zapatos.getText().toString()) == false) {
             numero_zapatos.setError(resources.getString(R.string.mensaje_error_uno));
         } else {
 
-            if (opcion_genero == 0) {
-                if (opcion_tipo == 0) {
-                    if (opcion_marca == 0) {
-                        valor = 120000;
-                    } else if (opcion_marca == 1) {
-                        valor = 140000;
-                    } else if (opcion_marca == 2) {
-                        valor = 130000;
-                    }
-                } else {
-                    if (opcion_marca == 0) {
-                        valor = 50000;
-                    } else if (opcion_marca == 1) {
-                        valor = 80000;
-                    } else if (opcion_marca == 2) {
-                        valor = 100000;
-                    }
-                }
-            } else {
-                if (opcion_tipo == 0) {
-                    if (opcion_marca == 0) {
 
-                        valor = 100000;
-                    } else if (opcion_marca == 1) {
-                        valor = 130000;
-                    } else if (opcion_marca == 2) {
-                        valor = 110000;
-                    }
-                } else {
-                    if (opcion_marca == 0) {
-                        valor = 60000;
-                    } else if (opcion_marca == 1) {
-                        valor = 70000;
-                    } else if (opcion_marca == 2) {
-                        valor = 120000;
-                    }
-                }
-            }
-           int num=Integer.parseInt(numero_zapatos.getText().toString());
+            int num=Integer.parseInt(numero_zapatos.getText().toString());
+            valor = Metodos.Validar(opcion_genero,opcion_tipo,opcion_marca,num);
             total=num*valor+total;
              double total2=num*valor;
             respuesta.setText(total2 + "");
